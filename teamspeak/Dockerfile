@@ -1,5 +1,4 @@
 FROM debian:jessie
-MAINTAINER Matt Bentley <mbentley@mbentley.net>
 
 ENV TS_DIRECTORY=/opt/teamspeak
 
