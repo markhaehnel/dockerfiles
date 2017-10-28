@@ -13,4 +13,5 @@ RUN wget --quiet --output-document=android-sdk.zip https://dl.google.com/android
   && echo y | /opt/android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter extra-android-m2repository \
   && echo y | /opt/android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter extra-google-google_play_services \
   && echo y | /opt/android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter extra-google-m2repository \
+  && mkdir /opt/android-sdk-linux/licenses \
   && echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55\nd56f5187479451eabf01fb78af6dfcb131a6481e" > /opt/android-sdk-linux/licenses/android-sdk-license
